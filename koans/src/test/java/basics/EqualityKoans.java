@@ -51,5 +51,6 @@ class EqualityKoans {
     void by_default_an_object_is_equal_to_itself() {
         Object object = new Object();
         assertThat(object.equals(object)).isEqualTo(true);
+
     }
 }
